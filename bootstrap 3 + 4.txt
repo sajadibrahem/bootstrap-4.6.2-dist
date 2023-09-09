@@ -1,0 +1,262 @@
+#grid-system
+
+large    --> lg
+medium  --> md
+small   --> sm
+extra small  --> xs
+
+
+-----------------------------------------------
+
+
+col-lg-4
+
+col-lg-2
+
+col-lg-4
+
+col-lg-2   شرط المجموع يساوي 12 حتى لاتنزل جوا 
+
+صف بصف صف 4,4,4
+------------------------------
+<div class="row"> </div>   لتقسيم الكرد توضع داخله العناصر ويوضع هو داخل الكونتينر
+<div class="row"> </div>    يوضع داخل العنصر لتقسيم الكرد
+-----------------------------------------------
+خفاء
+hidden-lg , hidden-md , hidden-sm , hidden-xs   اخفاء العنصر عند حجم معين 
+visible-lg , visible-md-block , visible-sm , visible-xs    اظهار عنصر عند حجم معين
+
+-----------------------------------------------
+
+<div class="clearfix"></div>     اضافة فراغ تحت الكريد
+
+--------------------------------------------------------
+col-lg-offset-3   اضافة مسافة او مارجن للكريد
+
+
+------------------------------------------------------------
+col-sm-8 دفع لليمين بمقدار 4 كرد     ----->     col-sm-push-4
+ col-sm-4  سحب لليسار بمقدار 8 كرد  ----->        col-sm-pull-8  
+
+----------------------------------------------------------------------
+يوضع الكرد داخل رو 
+--------------------
+
+
+<div class="col-md-3 col-xs-12"> 
+
+<image class="img-responsive موالمة حجم الصورة center-block   سنتر الصورة" src="css/pngegg.png" alt="logo">  
+
+</div>
+
+------------------------------------
+
+<div class="  col-xs-9"> 
+
+<h1> who we are ? </h1>
+
+<p class="lead" موالمة  شكل النص > Bootstrap utilizes Sass for a modular and customizable architecture. Import only the components you need, enable global options like gradients and shadows, and ...
+You've visited this page many times. </p>  </div>
+
+class="text-center"   توسيط النص
+<strong> Yourself. </strong>   تكبير الكلمة داخل البريغراف
+
+
+--------------------------------------------------
+--------------------------------------------------
+#navbar
+
+navbar-inverse  قلب لون الشريط الى اسود
+navbar-fixed-top , navbar-fixed-bottom    تثبيت شريط المهام عند الحركة
+navbar-default  شريط المهام بخلفية
+
+   <li role="separator" class="divider"></li> خط فاصل
+------------
+class=navbar-right , navbar-right   وضع الشريط يمين او يسار 
+
+<ul class="nav navbar-nav navbar-right"> 
+------------
+list-unstyled الغاء النقاط
+-----------------------
+text-primary , text-danger , text-warning , text-info لون الخط
+---------------------------
+img-circle الصورة بوردر دائري
+-------------------------
+#form
+
+form-inline مربع انبوت صغير
+form-control لجعل المربع حجمه مناسب
+btn-lg حجم البتن
+fa-lg حجم الايقونة
+------------
+<div class="progress-bar
+ progress-bar-success
+ progress-bar-striped
+ active" 
+
+role="progressbar" aria-valuenow="80" 
+aria-valuemin="0" 
+aria-valuemax="100" style="width: 80%;">
+
+ Html and css
+
+  </div>
+
+--------------------------------
+الانبوت
+<div class="form-group">
+  <input type="text" class="form-control input-lg"  placeholder="E-mail">
+  </div>
+
+تيكست اريا
+<div class="form-group">
+    <textarea class="form-control input-lg text-area" placeholder="Comment..."></textarea>
+    </div>
+    <button type="button" class="btn btn-primary btn-lg btn-block"> Submit</button>
+  </div>
+
+
+-----------------------------------------------------
+زحلقة القائمة ul من footer
+
+
+.footer .three-columns {
+    overflow: hidden;
+}
+
+.footer .three-columns li {
+width: 33.3333%;
+float: left;
+
+}
+
+-------------------------------------------------
+#37 حلقة
+عمل ملف سي اس اس حاص بالالوان 
+وترتيبهن
+
+div , class , numb {
+color:blue ;
+}
+
+
+bag , tan , element {
+background-color:green;
+
+}
+
+واستدعاءه بال tool box 
+
+
+ويمكنك من خلاله عمل زر تغيير اللغة
+وزر ال دارك مود
+
+
+-------------------------------
+#38 j-Query  تغيير الوان الصفحة من الصندوق
+-------------------------------
+#39 j-Query  loading page
+-------------------------------
+#40 j-Query Create Scroll To Top Button
+-------------------------------
+#42  clean code
+
+.table .box a {   margin-bottom: 10px; }  سطر واحد
+
+<h1 class="h2">iphone</h1>   كلاس بوتستراب
+
+
+groping..  كلاسات مشتركة بنفس الخاصية 
+
+.our-team , h2 , p , .apple  {
+color:  var(--main-color); 
+
+  }
+
+----------------------------------------
+#43 - Retouch 5 Clean Js File   javascript
+------------------------------
+#44 - Using Hover Css   مكتبة
+------------------------------
+ #45 - Improve Speed And Performance  سرعة الموقع
+--------------------------------
+ #46 - Validate Your Html File اخطاء الموقع
+--------------------------------
+#47 - Using WOW Js مكتبة لعمل حركات تاخير وعرض
+--------------------------------
+#48 - Using Nice Scroll مكتبة 
+--------------------------------
+ #52 - Create FAQ Page  صفحة الأسئلة 
+ 
+--------------------------------
+--------------------------------
+bootstrap 4
+--------------------------------
+--------------------------------
+--------------------------------
+col-lg-4 ,col-lg-4 ,col-lg-4  ----> col-lg , col-md , col-sm
+
+
+text-center --align-->    text-left , text-right
+
+-------------
+*عند وضع مارجن بين سبان في داخل دف في الفليكس نضعه في 
+<span class="mail"> +964 77-003-912-27 </span>
+
+.upper-bar .mail {
+margin-right: 20px;
+display: inline-block;
+}
+
+----------------------
+navbar
+
+navbar-nav ml-auto ناف بار لليسار
+
+
+<a class="navbar-brand " href="#">
+
+<span>Elite</span>
+<span>Crop</span>
+
+</a>
+
+.navbar-brand span:first-child {
+color:#1F627B;
+font-weight: bold; 
+}
+
+.navbar-brand span:last-child {
+color:#EB0D02;
+    
+}
+
+
+.navbar-nav .nav-link.active {
+    color:#EB0D02 !important اجباري ; 
+
+}
+
+ 
+
+---------------------
+#06 - تصميم الهيدر الجزء الثالث - تصميم منطقة ال Sliderb  #js
+---------------------
+ترتيب القائمة بشكل افقي 
+
+<ul class="list-unstyled row">
+
+<li class="col-md active">all</li>
+<li class="col-md">websites</li>
+<li class="col-md">logo</li>
+<li class="col-md">graphic</li>
+<li class="col-md"> markiting</li>
+<li class="col-md">video</li>
+
+</ul>
+ 
+-----------------------------------------
+#13 javascript
+-----------------------------------------
+img-fluid instaed img-responsive in bootstrap 3
+-----------------------------------
